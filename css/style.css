@@ -1,0 +1,61 @@
+
+#services {
+  padding:60px 0px;
+}
+
+.showcase-text {
+  padding: 50px;
+}
+
+.showcase-img {
+  background-position: center;
+  background-size: cover;
+}
+
+#team {
+  padding: 60px 0px;
+}
+
+.team-item {
+  width:200px;
+}
+
+.call-to-action {
+  background-image: url('img/slider-1.jpg');
+  background-position: center;
+  background-size: cover;
+  padding:60px 0px;
+}
+
+.footer {
+  padding:60px 0px;
+}
+
+@media (max-width: 768px) {
+  
+  .service-item {
+    margin-bottom: 50px;
+  }
+
+  .service-item:last-child {
+    margin:0;
+  }
+
+  .showcase-img {
+    height: 300px;
+  }
+
+  .team-item-last {
+    margin-bottom:0;
+  }
+
+  .team-item {
+    margin-bottom:50px;
+  }
+
+  .email-form {
+    margin-bottom:10px;
+  }
+}
+
+
